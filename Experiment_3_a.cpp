@@ -5,10 +5,9 @@
 using namespace std;
 
 int main(){
-    
-   char PRN[] = "23118";
-   for (int i=0; i!='\0'; i++){
-       cout<<PRN[i]<<endl;
+    char PRN [] = "23118";
+    for (int i=0;PRN[i]!='\0'; i++){
+        cout<<PRN[i]<<endl;
    }
 
 return 0;
