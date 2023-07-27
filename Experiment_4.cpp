@@ -7,8 +7,8 @@ Experiment no: 4(a)
 using namespace std;
 int main(){
     int i= 67, j,set,reset;
-    set = (67|8);
-    reset= (67&191);
+    set = (67|8); // | --> Bitwise OR --> 0|1 = 1 --> Set means to convert 0 to 1 Bitwise OR
+    reset= (67&191); // & --> Bitwise AND --> 0&1 = 0 , 1&1 = 1 --> Reset means to convert 1 to 0, using Bitwise AND
     cout<<"Value of set is: "<<set<<endl<<"Value of set is: "<<reset;
     return 0;
 }
@@ -25,8 +25,8 @@ Experiment no: 4(b)
 using namespace std;
 int main(){
     int a=12,b,c;
-    b=a<<1; 
-    c=a>>1;
+    b=a<<1; // Left binary shift by 1 bit --> a<<1 
+    c=a>>1; // Right binary shift by 1 bit --> a>>1
     cout<<"Left binary shift value is: "<<b<<endl<<"Right binary shift value is: "<<c;
     return 0;
 }
@@ -45,7 +45,7 @@ int main(){
     int i=50,set_bit,reset_bit,set,reset;
     cout<<"Enter the bit to be set: ";
     cin>>set_bit;
-    cout<<"Enter the  it to be reset: ";
+    cout<<"Enter the bit to be reset: ";
     cin>>reset_bit;
     set=i|(1<<set_bit);
     reset=i&(~1<<reset_bit);
@@ -54,7 +54,7 @@ int main(){
 }
 /* OUTPUT 
 Enter the bit to be set: 6
-Enter the  it to be reset: 1
+Enter the bit to be reset: 1
 Set bit - 114
 Reset bit - 48
 */
