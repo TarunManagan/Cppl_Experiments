@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    cout << "Hello World!";
+    cout << "Hello World!"; //Prints Hello World!
     return 0;
 }
 /*  OUTPUT
@@ -21,11 +21,11 @@ using namespace std;
 int main(){
     float a,b;
     cout<<"Enter two numbers: ";
-    cin>> a >> b;
-    cout << "The sum of a and b is: " << a+b <<endl;
-    cout << "The difference of a and b is: " << a-b<<endl;
-    cout << "The product of a and b is: " << a*b<<endl;
-    cout << "The division of a and b is: " << a/b<<endl;
+    cin>> a >> b; //Taking input from the user
+    cout << "The sum of a and b is: " << a+b <<endl; //Addition of two numbers a and b
+    cout << "The difference of a and b is: " << a-b<<endl; //Subtraction of two numbers a and b
+    cout << "The product of a and b is: " << a*b<<endl; //Multiplication of two numbers a and b
+    cout << "The division of a and b is: " << a/b<<endl; //Division of two numbers a and b
     return 0;
 }
 /*  OUTPUT
