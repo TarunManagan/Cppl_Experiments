@@ -1,5 +1,5 @@
 /*PRN: 22070123118
-Experiment no: 4(a)*/
+Experiment no: 5(a)*/
 #include <iostream>
 using namespace std;
 
@@ -31,7 +31,7 @@ Zero
 */
 
 /*PRN: 22070123118
-Experiment no: 4(a)*/
+Experiment no: 5(a)*/
 
 #include<iostream>
 using namespace std;
@@ -56,7 +56,7 @@ Enter the 3 numbers you want to compare: 8 7 6
 */
 
 /*PRN: 22070123118
-Experiment no: 4(b)*/
+Experiment no: 5(b)*/
 #include <iostream>
 using namespace std;
 
@@ -99,7 +99,7 @@ The division of a and b is: 28
 */
 
 /*PRN: 22070123118
-Experiment no: 4(c)*/
+Experiment no: 5(c)*/
 #include <iostream>
 using namespace std;
 
@@ -148,7 +148,7 @@ Enter the value n: 8
 Wrong input
 */
 /*PRN: 22070123118
-Experiment no: 4(d)*/
+Experiment no: 5(d)*/
 #include <iostream>
 using namespace std;
 
@@ -170,27 +170,7 @@ Enter the value of n: 1
 */
 
 /*PRN: 22070123118
-Experiment no: 4(d)*/
-#include <iostream>
-using namespace std;
-
-int main() {
-    int n=1;
-    while(n<=50){
-        cout<<n<<"\t";
-        n++;
-    }
-   
-       return 0;
-}
-
-/*OUTPUT
-1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25
-26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50
-*/
-
-/*PRN: 22070123118
-Experiment no: 4(d)*/
+Experiment no: 5(d)*/
 #include <iostream>
 using namespace std;
 
@@ -210,7 +190,7 @@ int main() {
 */
 
 /*PRN: 22070123118
-Experiment no: 4(e)*/
+Experiment no: 5(e)*/
 #include <iostream>
 using namespace std;
 
@@ -233,15 +213,5 @@ Hello World!!
 Hello World!!
 */
 
-/*PRN: 22070123118
-Experiment no: 4(a)*/
-#include <iostream>
-using namespace std;
 
-int main() {
-   for(int i=100; i<=50;i--){
-       cout<<i<<endl;
-   }
-    return 0;
-}
 
