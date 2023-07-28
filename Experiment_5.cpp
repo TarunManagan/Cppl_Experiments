@@ -7,14 +7,14 @@ int main() {
    int a;
    cout<<"Enter the value a: ";
    cin>>a;
-   if(a%2==0){
-       if(a==0){
+   if(a%2==0){ //Checks whether the number is even or odd
+       if(a==0){//Checks whether the number is equal to 0 or not, if true then it prints Zero but if not, then it prints the statement in the else part.
            cout<<"Zero";
        }else{
            cout<<"Even number";
            
        }
-   }else{
+   }else{//If the initial condition fails then this statement is executed.
            cout<<"Odd number";
        }
        return 0;
@@ -39,13 +39,13 @@ int main(){
     int a,b,c;
     cout<<"Enter the 3 numbers you want to compare: ";
     cin>>a>>b>>c;
-    if(a>b && a>c){
+    if(a>b && a>c){ //Compares whether the value of a is greater than b and c
         cout<<a<<" is the greatest";
     }
-    else if(b>c && b>a){
+    else if(b>c && b>a){ //Compares whether the value of b is greater than b and c
         cout<<b<<" b is the greatest"<<b;
     }
-    else{
+    else{ //If both the conditions fail then this statement is executed.
         cout<<c<<" is the greatest"<<c;
     }
     return 0;
@@ -69,13 +69,13 @@ int main() {
     cin>>n;
     
     switch(n){
-        case 1: cout << "The sum of a and b is: " << a+b <<endl;
+        case 1: cout << "The sum of a and b is: " << a+b <<endl; //For n=1, it prints sum of two numbers
         break;
-        case 2: cout << "The difference of a and b is: " << a-b<<endl;
+        case 2: cout << "The difference of a and b is: " << a-b<<endl; //For n=2, it prints the difference of two numbers
         break;
-        case 3: cout << "The product of a and b is: " << a*b<<endl;
+        case 3: cout << "The product of a and b is: " << a*b<<endl; //For n=3, it prints the product of two numbers
         break;
-        case 4: cout << "The division of a and b is: " << a/b<<endl;
+        case 4: cout << "The division of a and b is: " << a/b<<endl; //For n=4, it prints the division of two numbers
         break;
     }
     return 0;
@@ -87,7 +87,7 @@ The sum of a and b is: 6
 
 Enter two numbers of a,b: 2 4
 Enter the value n: 2
-The difference of a and b is: -2
+The difference between a and b is: -2
 
 Enter two numbers of a,b: 34 15
 Enter the value n: 3
@@ -109,21 +109,21 @@ int main() {
     cin>>n;
     
     switch(n){
-        case 1: cout << "Monday";
+        case 1: cout << "Monday"; //For n=1, it prints Monday
         break;
-        case 2: cout << "Tuesday";
+        case 2: cout << "Tuesday"; //For n=2, it prints Tuesday
         break;
-        case 3: cout << "Wednesday";
+        case 3: cout << "Wednesday"; //For n=3, it prints Wednesday
         break;
-        case 4: cout << "Thursday";
+        case 4: cout << "Thursday"; //For n=4, it prints Thursday
         break;
-        case 5: cout << "Friday";
+        case 5: cout << "Friday"; //For n=5, it prints Friday
         break;
-        case 6: cout << "Saturday";
+        case 6: cout << "Saturday"; //For n=6, it prints Saturday
         break;
-        case 7: cout << "Sunday";
+        case 7: cout << "Sunday"; //For n=7, it prints Sunday
         break;
-        default:
+        default: //If none of the conditions is satisfied then this gets executed
         cout<<"Wrong input";
     }
     return 0;
@@ -153,12 +153,12 @@ Experiment no: 5(d)*/
 using namespace std;
 
 int main() {
-    int n;
+    int n; //Declaration of the variable n
     cout<<"Enter the value of n: ";
-    cin>>n;
-    while(n<=50){
+    cin>>n; //Initialization of n by taking input from the user
+    while(n<=50){    //Prints from 1 to 50
         cout<<n<<"\t";
-        n++;
+        n++; //Increments the value of n by 1
     }
     return 0;
 }
@@ -175,11 +175,11 @@ Experiment no: 5(d)*/
 using namespace std;
 
 int main() {
-    int n=1;
-    do{
+    int n=1; //Declaration and initialization of the variable n
+    do{ //Prints from 1 to 50
         cout<<n<<"\t";
-        n++;
-    }while(n<=50);
+        n++; //Increments the value of n by 1
+    }while(n<=50); //Condition
    
        return 0;
 }
@@ -195,8 +195,8 @@ Experiment no: 5(e)*/
 using namespace std;
 
 int main() {
-    for(int i=1; i<=10;i++){
-        cout<<"Hello World!!"<<"\n";
+    for(int i=1; i<=10;i++){// for(Initialization; Condition; Incrementation/Decrementation)
+       cout<<"Hello World!!"<<"\n";
     }
     return 0;
 }
