@@ -20,14 +20,17 @@ Experiment-no: 7(b)*/
 
 #include <iostream>
 using namespace std;
+
 int main() {
-    
-    int a1[5];
-    for(int i=0; i<5; i++){
+    int n;
+    cout<<"Eter the size of array: ";
+    cin>>n;
+    int a1[n];
+    for(int i=0; i<n; i++){
         cout<<"Enter the elements of the array: ";
         cin>>a1[i];
     }
-    for(int i=0; i<5; i++){
+    for(int i=0; i<n; i++){
         cout<<a1[i]<<"\t";
     }
 return 0;
