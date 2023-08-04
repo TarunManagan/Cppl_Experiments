@@ -85,7 +85,7 @@ int main() {
     cin>>a;
     for(int i=0; i<10; i++){
         if(a==a1[i]){
-            cout<<a<<" is present in the array at position "<<i<<endl;
+            cout<<a<<" is present in the array at position "<<i+1<<endl;
         }else{
             count++;
         }
@@ -98,8 +98,8 @@ return 0;
 
 /*OUTPUT
 Enter the value to find in the array: 45
-45 is present in the array at position 4
-45 is present in the array at position 9
+45 is present in the array at position 5
+45 is present in the array at position 10
 
 Enter the value to find in the array: 67
 The number is not present in the array
