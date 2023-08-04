@@ -31,7 +31,7 @@ Zero
 */
 
 /*PRN: 22070123118
-Experiment no: 5(a)*/
+Experiment no: 5(b)*/
 
 #include<iostream>
 using namespace std;
@@ -56,7 +56,7 @@ Enter the 3 numbers you want to compare: 8 7 6
 */
 
 /*PRN: 22070123118
-Experiment no: 5(b)*/
+Experiment no: 5(c)*/
 #include <iostream>
 using namespace std;
 
@@ -99,7 +99,7 @@ The division of a and b is: 28
 */
 
 /*PRN: 22070123118
-Experiment no: 5(c)*/
+Experiment no: 5(d)*/
 #include <iostream>
 using namespace std;
 
