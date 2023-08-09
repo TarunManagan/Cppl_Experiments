@@ -111,10 +111,10 @@ int main() {
     cout<<"The original string is: "<<str1<<endl;
     cout<<"The reverse string is: ";
     for(int i=n; i>=0; i--){
-        str2[i] = str1[i];
-        cout<<str2[i];
+        str2[n-i] = str1[i];
+        cout<<str2[n-i];
     }
-    for(int i=0; str1[i]!='\0' && str2[i]!='\0'; i++){
+    for(int i=0; str1[i]!='\0' && str2[i]!='\0'; i++){ 
         if(str1[i]==str2[i]){
             count++; 
         }
@@ -133,6 +133,11 @@ Enter a string: malayalam
 The original string is: malayalam
 The reverse string is: malayalam
 It is a Palindrome
+
+Enter a string: tarun
+The original string is: tarun
+The reverse string is: nurat
+It is not a Palindrome
 */
 
 /*PRN: 22070123118
@@ -149,9 +154,7 @@ int main() {
     cout<<"The new string is: ";
     for(int i=0; str1[i]!='\0'; i++){
         cout<<char(str1[i]-32);
-    
     }
-    
 return 0;
 }
 
