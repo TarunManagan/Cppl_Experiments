@@ -76,3 +76,29 @@ The resultant Matric X is:
 10 10 10 
 10 10 10 
 */
+#include <iostream>
+using namespace std;
+int main(){
+    int r,c,sum=0;
+    cout<<"Enter the number of rows and columns of the matrix: ";
+    cin>>r>>c;
+    int A[r][c];
+    cout<<"Enter the elements of Matrix A: "<<endl;
+    for(int i=0; i<r;i++){
+        for(int j=0; j<c;j++){
+            cin>>A[i][j];
+        }
+    }
+    for(int i=0; i<r;i++){
+        for(int j=0; j<c;j++){
+            if(r==c || r+c==c+1){
+                sum = sum+A[i][j];
+                cout<<sum<<endl;
+            }else{
+                sum=0;
+            }
+        }
+    }
+    cout<<"The sum of diagonal elements of Matrix A is: "<<sum;
+    return 0;
+}
