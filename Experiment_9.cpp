@@ -103,6 +103,8 @@ int main(){
     return 0;
 }
 
+/*PRN: 22070123118
+Experiment No: 8(d)*/
 #include <iostream>
 using namespace std;
 int main(){
@@ -126,9 +128,21 @@ int main(){
     cout<<"The transpose of the Matrix A is: "<<endl;
     for(int i=0; i<c;i++){
         for(int j=0; j<r;j++){
-            cout<<A[i][j]<<"\t";
+            cout<<A[j][i]<<"\t";
         }
         cout<<endl;
     }
     return 0;
 }
+/*OUPUT
+Enter the number of rows and columns of the matrix: 2 3
+Enter the elements of Matrix A: 
+1 2 3 4 5 6
+The original Matrix A is: 
+1	2	3	
+4	5	6	
+The transpose of the Matrix A is: 
+1	4	
+2	5	
+3	6
+*/
