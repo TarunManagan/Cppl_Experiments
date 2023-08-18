@@ -17,7 +17,7 @@ The address of a is: 0x7fff6d64eef4
 The new value of a is: 15
 */
 
-*PRN: 22070123118
+/*PRN: 22070123118
 Experiment No: 10()*/
 #include <iostream>
 using namespace std;
