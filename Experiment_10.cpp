@@ -34,6 +34,11 @@ int main(){
     return 0;
 }
 /*OUPUT
+The original value of a is: 10
+The original address of a is: 0x7ffee6ade564
+The incremented value of a is: 11
+The new address of a is: 0x7ffee6ade564
+*/
 
 /*PRN: 22070123118
 Experiment No: 10(c)*/
@@ -54,8 +59,26 @@ int main(){
 The original value of a: 10
 The incremented value of a is: 11
 */
-The original value of a is: 10
-The original address of a is: 0x7ffee6ade564
-The incremented value of a is: 11
-The new address of a is: 0x7ffee6ade564
+
+/*PRN: 22070123118
+Experiment No: 10(d)*/
+#include <iostream>
+using namespace std;
+
+void swap(int *a, int *b){
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+ }
+int main(){
+   int a=10,b=15;
+   cout<<"The original value of a and b is: "<<a<<"\t"<<b<<endl;
+   swap(&a,&b);
+   cout<<"The value of a and b after swapping is: "<<a<<"\t"<<b<<endl;
+   return 0;
+}
+/*OUPUT
+The original value of a and b are: 10	15
+The value of a and b after swapping is: 15	10
 */
