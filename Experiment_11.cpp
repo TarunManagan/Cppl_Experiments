@@ -10,14 +10,14 @@ class cube{
 };
 int main(){
     cube volume;
-    cout<<"Enter the height, breadth anf lenght of the cube: ";
+    cout<<"Enter the height, breadth and lenght of the cube: ";
     cin>>volume.ht>>volume.breadth>>volume.len;
     cout<<endl<<"The volume of the cube is: "<<volume.ht*volume.breadth*volume.len;
     return 0;
 }
 
 /*OUTPUT
-Enter the height, breadth anf lenght of the cube: 2 3 4
+Enter the height, breadth and lenght of the cube: 2 3 4
 The volume of the cube is: 24
 */
 
@@ -31,7 +31,7 @@ class cube{
         public:
         double ht,breadth,len;
         double vol_cube(){
-            cout<<"Enter the height, breadth anf lenght of the cube: ";
+            cout<<"Enter the height, breadth and lenght of the cube: ";
             cin>>ht>>breadth>>len;
             double volume1 = ht*breadth*len;
             return volume1;
@@ -49,7 +49,7 @@ int main(){
 }
 
 /*OUTPUT
-Enter the height, breadth anf lenght of the cube: 4 5 6
+Enter the height, breadth and lenght of the cube: 4 5 6
 The volume of the cube is: 120
 */
 
@@ -64,7 +64,7 @@ class cube{
         double ht,breadth,len;
         public:
         double vol_cube(){
-            cout<<"Enter the height, breadth anf lenght of the cube: ";
+            cout<<"Enter the height, breadth and lenght of the cube: ";
             cin>>ht>>breadth>>len;
             double volume1 = ht*breadth*len;
             return volume1;
@@ -82,6 +82,6 @@ int main(){
 }
 
 /*OUTPUT
-Enter the height, breadth anf lenght of the cube: 10 6 4
+Enter the height, breadth and lenght of the cube: 10 6 4
 The volume of the cube is: 240
 */
